@@ -47,7 +47,12 @@ p {
 
 aside {
     width: 20rem;
-    text-align: var(--position);
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
 }
 
 aside img {
@@ -56,9 +61,7 @@ aside img {
 }
 
 aside h2 {
-    position: absolute;
-    top: 47px;
-    left: 150px;
+    text-align: center;
 }
 
 footer {
